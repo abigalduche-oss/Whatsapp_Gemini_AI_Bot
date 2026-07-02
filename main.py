@@ -38,8 +38,8 @@ wa_token = get_env_var("WA_TOKEN", "wa_api", "ACCESS_TOKEN")
 gen_api = get_env_var("GEN_API", "GOOGLE_API_KEY", "gemini_api")
 phone_id = get_env_var("PHONE_ID", "phone_id", "PHONE_NUMBER_ID")
 phone = get_env_var("PHONE_NUMBER", "your_phone", "RECIPIENT_WAID")
-name = os.environ.get("BOT_OWNER_NAME") or "Your name or nickname"
-bot_name = os.environ.get("BOT_NAME") or "Give a name to your bot"
+name = os.environ.get("BOT_OWNER_NAME") or "CUZ"
+bot_name = os.environ.get("BOT_NAME") or "CUZ Query Assistant"
 model_name = "gemini-1.5-flash-latest"
 
 app = Flask(__name__)
